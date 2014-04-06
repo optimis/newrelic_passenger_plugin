@@ -3,7 +3,7 @@
 # Passenger agent to monitor status and memory status of passenger servers
 
 require "rubygems"
-require "bundler/setup"
+# require "bundler/setup"
 require "newrelic_plugin"
 require "nokogiri"
 require File.join(File.dirname(__FILE__), 'lib/status_parser')
